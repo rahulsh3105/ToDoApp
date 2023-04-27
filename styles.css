@@ -1,0 +1,96 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+  }
+  
+  /* Columns */
+  .column {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .column h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Tasks */
+  .task {
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .task p {
+    margin: 0;
+  }
+  
+  .task:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .task .delete {
+    float: right;
+    color: #777;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .task .delete:hover {
+    color: #f44336;
+  }
+  
+  /* Form */
+  .form {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    margin-right: 10px;
+  }
+  
+  .form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .form button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Empty trash button */
+  #emptyTrashBtn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  #emptyTrashBtn:hover {
+    background-color: #e53935;
+  }
+  
